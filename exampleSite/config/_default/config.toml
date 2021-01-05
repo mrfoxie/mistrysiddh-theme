@@ -1,10 +1,10 @@
-baseURL = "http://example.org"
-title = "Hugo Zzo Theme"
-theme = "zzo"
+baseURL = ""
+title = "Siddh Mistry"
+theme = "mistrysiddh-theme"
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-hasCJKLanguage = true
+defaultContentLanguage = ""
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = false
 
 summaryLength = 70
 buildFuture = true
@@ -15,8 +15,9 @@ enableEmoji = true
 paginate = 13
 rssLimit = 100
 
-enableGitInfo = false
-googleAnalytics = ""
+enableGitInfo = true
+googleAnalytics = "UA-185411859-1"
+disableAdsense = false
 
 [markup]
   [markup.goldmark]
@@ -51,3 +52,4 @@ googleAnalytics = ""
   category = "categories"
   tag = "tags"
   series = "series"
+enableRobotsTXT = "true"

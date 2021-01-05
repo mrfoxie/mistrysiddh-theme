@@ -1,13 +1,13 @@
-logoText = "Zzo"
+logoText = "Siddh Mistry"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "Get weakly news related to different kind of new, tips, tricks, etc. If you have your own theory or story then comment down in the post."
 custom_css = []
 custom_js = []
-useFaviconGenerator = true # https://www.favicon-generator.org/
-meta_image = ""
-themecolor = ""
+useFaviconGenerator = false # https://www.favicon-generator.org/
+meta_image = "/images/whoami/avatar.png"
+themecolor = "#212121"
 
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
+themeOptions = ["light", "dark", "hacker", "solarized", "kimbie"]
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
@@ -15,17 +15,17 @@ notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase",
 
 viewportSize = "normal" # widest, wider, wide, normal, narrow
 enableUiAnimation = true
-hideSingleContentsWhenJSDisabled = false
+hideSingleContentsWhenJSDisabled = true
 enablePinnedPosts = true
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # appbar
-enableAppbarSearchIcon = false
+enableAppbarSearchIcon = true
 enableAppbarLangIcon = false
 
 # header
 homeHeaderType = "text" # text, img, slide, typewriter
-hideHomeHeaderWhenMobile = false
+hideHomeHeaderWhenMobile = true
 
 # menu
 showMobileMenuTerms = ["tags", "categories", "series"]
@@ -56,14 +56,14 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
-bioImageUrl = ""
+myname = "Siddh Mistry"
+email = "siddh.mistry396321@gmail.com"
+whoami = "Blogger"
+bioImageUrl = "/images/whoami/avatar.png"
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "Valsad, Gujarat"
+organization = ""
+link = "https://mistrysiddh.tk"
 
 # sidebar
 enableBio = true
@@ -88,26 +88,26 @@ enableSidebarPostsByOrder = false
 showPoweredBy = true
 showFeedLinks = true
 showSocialLinks = true
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 
 # service
-googleTagManager = "" # GTM-XXXXXX
+googleTagManager = "GTM-P6KBB6S" # GTM-XXXXXX
 baiduAnalytics = ""
-enableBusuanzi = false
+enableBusuanzi = true
 busuanziSiteUV = true
 busuanziSitePV = true
 busuanziPagePV = true
 
 # rss
-updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+updatePeriod = "daily" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
 updateFrequency = ""
 fullContents = false
 
 # comment
 enableComment = true
-disqus_shortname = ""
-commento = false
+disqus_shortname = "siddhmistry"
+commento = true
 
 [telegram]
   enable = false
@@ -157,21 +157,21 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = "mailto:siddh.mistry396321@gmail.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  facebook = ""
+  twitter = "http://twitter.com/Hacking_Tiger"
+  github = "https://github.com/mrfoxie/mistrysiddh"
   stack-overflow = ""
-  instagram = ""
+  instagram = "https://instagram.com/mistrysiddh"
   google-plus = ""
   youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = ""
-  pinterest = ""
+  linkedin = "https://www.linkedin.com/in/SiddhMistry/"
+  pinterest = "https://www.pinterest.com/siddhmistry/"
   stack-exchange = ""
-  telegram = ""
+  telegram = "https://t.me/MrFoxie"
   steam = ""
   weibo = ""
   douban = ""
@@ -181,7 +181,7 @@ commento = false
   jianshu = ""
   zhihu = ""
   signal = ""
-  whatsapp = ""
+  whatsapp = "https://api.whatsapp.com/send?phone=916355040470&text=http%3A%2F%2Fmistrysiddh.tk%2F"
   matrix = ""
   xmpp = ""
   dev-to = ""
@@ -189,19 +189,22 @@ commento = false
   google-scholar = ""
 
 [donationOptions]
-  enable = false
+  enable = true
   alipay = "" 
   wechat = ""
-  paypal = ""
-  patreon = ""
+  paypal = "https://paypal.me/mistrysiddh"
+  patreon = "https://www.patreon.com/siddhmistry"
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
-[[share]]
-  name = "facebook"
-  username = ""
-[[share]]
-  name = "twitter"
-
+#[[share]]
+#  name = "facebook"
+#  username = "tigersid1997"
+#[[share]]
+#  name = "twitter"
+#  username = "Hacking_Tiger"
+#[[share]]
+#  name = "linkedin"
+#  username = "SiddhMistry"
 [[footerLinks]]
   name = ""
   link = ""
