@@ -1,21 +1,12 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Mistrysiddh Theme"
+name = "Mistry Siddh"
 license = "MIT"
 licenselink = "https://github.com/mrfoxie/mistrysiddh-theme/blob/master/LICENSE"
 description = "Myself Mistry Siddh, I’m a blogger who loves to write conspiracy theories, NEWS, tips&tricks, etc."
 homepage = "https://mistrysiddh.tk"
-tags = [news, tips tricks, gaming, blogger]
-features = []
-min_version = "0.41.0"
+tags = ["accessible", "multilingual", "responsive", "blog", "search", "simple", "light", "dark", "mobile", "gallery", "technical", "fast", "presentation"]
+features = ["accessible", "multilingual", "responsive", "grid", "sass", "search", "subtheme", "gallery", "technical", "fast", "presentation"]
+min_version = "0.65.0"
 
 [author]
   name = "Mistry Siddh"
   homepage = "https://github.com/mrfoxie/mistrysiddh"
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
