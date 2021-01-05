@@ -3,16 +3,16 @@
 
 name = "Mistrysiddh Theme"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
+licenselink = "https://github.com/mrfoxie/mistrysiddh-theme/blob/master/LICENSE"
+description = "Myself Mistry Siddh, I’m a blogger who loves to write conspiracy theories, NEWS, tips&tricks, etc."
+homepage = "https://mistrysiddh.tk"
+tags = [news, tips tricks, gaming, blogger]
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Mistry Siddh"
+  homepage = "https://github.com/mrfoxie/mistrysiddh"
 
 # If porting an existing theme
 [original]
